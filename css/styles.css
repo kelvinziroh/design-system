@@ -50,6 +50,12 @@ h1.design-system-heading {
     margin-left: 90px;
 }
 
+/* main styles */
+div.element-sections {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 /* footer styles */
 footer {
     background-color: #732103;
