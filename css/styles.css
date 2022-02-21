@@ -47,6 +47,7 @@ header {
 
 h1.design-system-heading {
     color: #FFFFFF;
+    margin-left: 90px;
 }
 
 /* footer styles */
@@ -56,4 +57,5 @@ footer {
 
 .copyright-info {
     color: #FFFFFF;
+    margin-left: 85px;
 }
