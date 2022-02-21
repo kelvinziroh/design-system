@@ -67,6 +67,36 @@ li {
     padding: 5px 0; 
 }
 
+.box {
+    width: 40%;
+    height: 100px;
+    margin: 20px 0;
+    border: 1px dotted black;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.box p {
+    color: #FFFFFF;
+}
+
+.one {
+    background-color: #5C1F00;
+}
+
+.two {
+    background-color: #BF5B04;
+}
+
+.three {
+    background-color: #732103;
+}
+
+.four {
+    background-color: #400F04;
+}
+
 /* footer styles */
 footer {
     background-color: #732103;
