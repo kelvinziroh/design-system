@@ -13,7 +13,8 @@ body {
 }
 
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
     align-items: center;
     grid-column: 1 / -1;
     grid-row: 1 / 2;
@@ -24,7 +25,8 @@ main {
 }
 
 footer {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
     grid-column: 1 / -1;
     grid-row: 3 / -1;
     align-items: center;
@@ -47,13 +49,22 @@ header {
 
 h1.design-system-heading {
     color: #FFFFFF;
-    margin-left: 90px;
+    grid-column: 2 / -2;
 }
 
-/* main styles */
+/* main section styles */
 div.element-sections {
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+li {
+    padding: 5px 0; 
 }
 
 /* footer styles */
@@ -63,5 +74,5 @@ footer {
 
 .copyright-info {
     color: #FFFFFF;
-    margin-left: 85px;
+    grid-column: 2 / -2;
 }
