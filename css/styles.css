@@ -1,25 +1,57 @@
+/* general styles */
 html,
 body,
 * {
     margin: 0;
 }
 
+/* Display and positioning */
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px auto 65px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+}
+
+main {
+    grid-column: 2 / -2;
+}
+
+footer {
+    display: flex;
+    grid-column: 1 / -1;
+    grid-row: 3 / -1;
+    align-items: center;
+}
+
+/* typography */
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 
 /* header styles */
 header {
     background-color: #BF5B04;
-    padding: 20px;
 }
 
-.design-system-heading {
+h1.design-system-heading {
     color: #FFFFFF;
-    font-family: 'Playfair Display', serif;
 }
 
 /* footer styles */
 footer {
     background-color: #732103;
-    padding: 20px;
 }
 
 .copyright-info {
