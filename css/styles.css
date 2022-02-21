@@ -97,6 +97,29 @@ li {
     background-color: #400F04;
 }
 
+.interactive {
+    display: block;
+    margin: 20px 0;
+}
+
+a.interactive {
+    color: #400F04;
+}
+
+a.visited {
+    color: #732103;
+}
+
+a.hover:hover {
+    color: #BF5B04;
+    text-decoration: none;
+}
+
+a.active:active {
+    color: #400F04;
+    text-decoration: none;
+}
+
 /* footer styles */
 footer {
     background-color: #732103;
