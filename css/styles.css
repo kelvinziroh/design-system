@@ -120,6 +120,40 @@ a.active:active {
     text-decoration: none;
 }
 
+button.interactive {
+    width: 30%;
+    height: 60px;
+    display: inline-block;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-style: none;
+    margin-right: 25px;
+}
+
+button.primary {
+    background-color: #732103;
+}
+
+.primary:hover {
+    background-color: #BF5B04;
+}
+
+.primary:active {
+    background-color: #400F04;
+}
+
+button.danger {
+    background-color: #8F0B00;
+}
+
+.danger:hover {
+    background-color: #BF1000;
+}
+
+.danger:active {
+    background-color: #400500;
+}
+
 /* footer styles */
 footer {
     background-color: #732103;
